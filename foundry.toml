@@ -1,6 +1,29 @@
 [profile.default]
 src = "src"
 out = "out"
-libs = ["lib"]
-
+libs = ["lib", "dependencies"]
+solc_version = "0.8.26"
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
+
+remappings = [
+    "@openzeppelin-contracts-5.0.0/=dependencies/@openzeppelin-contracts-5.0.0/",
+    "@openzeppelin-contracts-upgradeable-5.0.0/=dependencies/@openzeppelin-contracts-upgradeable-5.0.0/",
+    "@openzeppelin/contracts-upgradeable/=dependencies/@openzeppelin-contracts-upgradeable-5.0.0/",
+    "@openzeppelin/contracts/=dependencies/@openzeppelin-contracts-5.0.0/",
+    "forge-std/=lib/forge-std/src/",
+    "openzeppelin-contracts-upgradeable/=dependencies/@openzeppelin-contracts-upgradeable-5.0.0/",
+    "openzeppelin-contracts/=dependencies/@openzeppelin-contracts-5.0.0/",
+    "solady-0.0.275/=dependencies/solady-0.0.275/",
+    "solady/=dependencies/solady-0.0.275/"
+]
+
+
+[rpc_endpoints]
+sepolia = "${SEPOLIA_RPC_URL}"
+shape-sepolia = "${SHAPE_SEPOLIA_RPC_URL}"
+
+[dependencies]
+forge-std = "1.9.4"
+"@openzeppelin-contracts" = "5.0.0"
+"@openzeppelin-contracts-upgradeable" = "5.0.0"
+solady = "0.0.275"

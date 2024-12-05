@@ -1,0 +1,10 @@
+@openzeppelin-contracts-5.0.0/=dependencies/@openzeppelin-contracts-5.0.0/
+@openzeppelin-contracts-upgradeable-5.0.0/=dependencies/@openzeppelin-contracts-upgradeable-5.0.0/
+@openzeppelin/contracts-upgradeable/=dependencies/@openzeppelin-contracts-upgradeable-5.0.0/
+@openzeppelin/contracts/=dependencies/@openzeppelin-contracts-5.0.0/
+forge-std-1.9.4/=dependencies/forge-std-1.9.4/
+forge-std/=lib/forge-std/src/
+openzeppelin-contracts-upgradeable/=dependencies/@openzeppelin-contracts-upgradeable-5.0.0/
+openzeppelin-contracts/=dependencies/@openzeppelin-contracts-upgradeable-5.0.0/
+solady-0.0.275/=dependencies/solady-0.0.275/
+solady/=dependencies/solady-0.0.275/

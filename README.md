@@ -1,3 +1,6 @@
+# OTOM by Kjetil Golid
+OTOM lets you create and experiment with particles we call otoms.
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
